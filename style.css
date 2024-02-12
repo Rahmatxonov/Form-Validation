@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css2?family=Quando&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Quando", serif;
+  background: url(./bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+  font-size: 74px;
+  padding-top: 100px;
+}
+.form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.input {
+  outline: none;
+  width: 300px;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+}
+.submit {
+  margin-top: 40px;
+  border: none;
+  background: rgb(81, 81, 239);
+  padding: 8px 18px;
+  color: #fff;
+  border-radius: 8px;
+  margin-left: 120px;
+  transition: 0.4s;
+}
+.submit:hover {
+  background: blue;
+  cursor: pointer;
+}
+.box {
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+.wrapper {
+  background-color: #ff0000;
+  text-align: center;
+}
+.success {
+  background-color: #1eff00;
+  text-align: center;
+}
+
+.succeess {
+  outline: none;
+  width: 300px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 5px solid greenyellow;
+  /* box-shadow: 3px 4px 29px 3px rgb(116, 255, 10); */
+  /* -webkit-box-shadow: 3px 4px 29px 3px rgb(116, 255, 10); */
+  /* -moz-box-shadow: 3px 4px 29px 3px rgb(116, 255, 10); */
+}
+.error {
+  outline: none;
+  width: 300px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 5px solid rgb(255, 0, 0);
+  /* box-shadow: 3px 4px 29px 3px rgb(255, 0, 0); */
+  /* -webkit-box-shadow: 3px 4px 29px 3px rgb(255, 0, 0); */
+  /* -moz-box-shadow: 3px 4px 29px 3px rgb(255, 0, 0); */
+}
